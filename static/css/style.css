@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.logo-container .site-logo {
+    height: 38px;
+}
+
+.navigation .nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.navigation .nav-item {
+    padding: 0 15px;
+}
+
+.navigation .nav-link {
+    color: #37393F;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.consult-btn {
+    padding: 15px 20px;
+    background-color: #6B77E5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Cabin", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
