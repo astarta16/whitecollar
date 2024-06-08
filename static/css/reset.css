@@ -45,3 +45,7 @@ table {
 a {
 	text-decoration: none;
 }
+
+body, html{
+	box-sizing: border-box;
+}
