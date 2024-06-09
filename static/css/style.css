@@ -65,27 +65,26 @@
   display: flex;
   justify-content: space-around;
   padding: 20px;
-  background-color: #F4F4F4;
+  background-color: #f4f4f4;
 }
 
 .card {
-    width: 386px;
-    height: 383px;
-    text-align: center;
+  width: 386px;
+  height: 383px;
+  text-align: center;
 }
 
 .card-title {
-    font-size: 25px;
-    color:#37393F;
-    font-weight: 600;
-    font-family: "Poppins", sans-serif;
-    padding: 10px;
-
+  font-size: 25px;
+  color: #37393f;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  padding: 10px;
 }
 
 .card-paragraph {
-    font-weight: 400;
-    font-size: 18px;
-    font-family: "Inter", sans-serif;
-    color: #7D7D7D;
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  color: #7d7d7d;
 }
