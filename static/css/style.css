@@ -89,3 +89,43 @@
   font-family: "Inter", sans-serif;
   color: #7d7d7d;
 }
+
+.presentation-section {
+  position: relative;
+  background-image: url("../images/mainscreen.png");
+  background-position: center;
+  height: 400px;
+  width: 100%;
+  color: #37393f;
+}
+
+.presentation-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+
+.presentation-paragraph {
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  margin: 10px;
+}
+
+.presentation-title {
+  font-weight: 700;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  margin: 30px;
+}
+
+.presentation-text {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  width: 511px;
+  margin: 0 auto;
+}
