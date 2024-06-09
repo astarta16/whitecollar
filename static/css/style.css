@@ -6,8 +6,14 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 10px 20px;
+  padding: 20px 20px;
   cursor: pointer;
+  position: fixed;
+  top: 0;
+
+  width: 100%;
+  z-index: 1000;
+  background-color: #fff;
 }
 
 .logo-container .site-logo {
@@ -45,7 +51,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 180px;
 }
 
 .work-process {
@@ -59,11 +65,13 @@
   font-weight: 700;
   font-size: 40px;
   font-family: "Poppins", sans-serif;
+  margin-bottom: 30px;
 }
 
 .container {
   display: flex;
   justify-content: center;
+  margin-bottom: 40px;
 }
 
 .card {
